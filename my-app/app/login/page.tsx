@@ -26,7 +26,7 @@ const Login = () => {
             console.log("Login Successful:", session);
             alert("Login Successful");
             router.push('/profile')
-        } catch (error: any) {
+        } catch (error) {
             console.error("Login Failed:", error.message);
             alert("Login Failed" + error.message);
         }
