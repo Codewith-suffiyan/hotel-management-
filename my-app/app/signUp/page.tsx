@@ -32,7 +32,7 @@ function Page() {
             router.push('/login')
 
             alert("Sign Up Successfully")
-        }catch (error: any) {
+        }catch (error) {
             console.log("Error in Sign Up", error.message);
             alert("Sign Up Failed:" + error.message);
         }
