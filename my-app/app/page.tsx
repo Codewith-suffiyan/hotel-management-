@@ -15,7 +15,7 @@ const databases = new Databases(client);
 
 
 export default function Home() {
-  const [rooms, setRooms] = useState<any[]>([]);
+  const [rooms, setRooms] = useState([]);
 
   // const client = new Client()
   //   .setEndpoint("https://fra.cloud.appwrite.io/v1")
